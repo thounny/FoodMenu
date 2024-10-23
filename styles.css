@@ -8,3 +8,28 @@
   font-family: "Helvetica Neue";
   src: url(./fonts/helveticaneue.woff2);
 }
+
+body {
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+select {
+  height: auto;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
