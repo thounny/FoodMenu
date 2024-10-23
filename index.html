@@ -11,11 +11,27 @@
 </head>
 
 <body>
+    <class="container mt-5">
+        <h1 class="text-center mb-4">Select a Menu Category</h1>
 
+        <!-- DROPDOWN -->
+        <div class="form-group">
+            <label for="Category" class="font-weight-bold">Choose a category:</label>
+            <select id="category" class="form-control">
+                <option value="drinks">Drinks</option>
+                <option value="entrees">Entrees</option>
+                <option value="desserts">Desserts</option>
+            </select>
+        </div>
 
+        <!-- DISPLAY MENU ITEMS -->
+        <div class="form-group">
+            <label for="items" class="font-weight-bold">Menu Items:</label>
+            <select id="items" class="form-control" size="6"></select>
+        </div>
+        </div>
 
-
-    <script src="./script.js"></script>
+        <script src="./script.js"></script>
 </body>
 
 </html>
